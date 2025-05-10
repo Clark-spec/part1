@@ -1,0 +1,37 @@
+
+#header {
+    background-color: rgb(255, 253, 253);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 20px;
+    height: 70px;
+   
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 300px;
+}
+li:hover{
+    background-color: orange;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    
+}
