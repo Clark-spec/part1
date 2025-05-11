@@ -1,0 +1,18 @@
+/* Section styles */
+@import "navbar.css";
+@import "homesection.css";
+@import "footer.css";
+@import "about.css";
+@import "menu.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+  }
